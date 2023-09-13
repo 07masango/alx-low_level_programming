@@ -3,11 +3,12 @@
 /**
  * print_alphabet_x10 - Create an alphabet x10 times
  *
- * Return: 0 (success)
+ * Return: void (success)
  */
 
 void print_alphabet_x10(void)
 {
+
 char ch;
 int i;
 i = 0;
@@ -20,5 +21,6 @@ _putchar(ch);
 _putchar('\n');
 i++;
 }
+
 
 }
